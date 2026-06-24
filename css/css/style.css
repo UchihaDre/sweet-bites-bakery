@@ -5,3 +5,21 @@ body {
 .hero-section {
     padding: 50px 0;
 }
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card-body {
+    text-align: center;
+}
+
+h2 {
+    color: #8B4513;
+    font-weight: bold;
+}
