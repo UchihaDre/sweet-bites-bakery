@@ -37,3 +37,35 @@ h2 {
     height: 300px;
     object-fit: cover;
 }
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .gallery-img {
+        height: 200px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}
